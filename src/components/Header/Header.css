@@ -1,0 +1,23 @@
+.header {
+  height: 50px;
+  background-color: #c0c0c0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding-right: 120px;
+  padding-left: 20px;
+}
+
+.UAH::after {
+  content: url(./icons/UA-Flag-icon.png);
+  padding-left: 5px;
+  position: relative;
+  top: 3px
+}
+.USD::after {
+  content: url(./icons/USA-Flag-icon.png);
+  padding-left: 5px;
+  position: relative;
+  top: 3px
+}
